@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>ReportingTest</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>Login.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  
+<!--   <filter>      -->
+<!--        <filter-name>LoginFilter</filter-name>    -->
+<!--        <filter-class>com.reporter.test.filter.LoginFilter</filter-class>   -->
+<!--        <init-param> -->
+<!-- 			<param-name>LoginPage</param-name> -->
+<!-- 			<param-value>/jsp/Login.jsp</param-value> -->
+<!--  	   </init-param> -->
+<!-- </filter>     -->
+<!-- <filter-mapping> -->
+<!-- <filter-name>LoginFilter</filter-name> -->
+<!-- <url-pattern>/jsp/listFile.jsp</url-pattern> -->
+<!-- <url-pattern>/jsp/ChooseType.jsp</url-pattern> -->
+<!-- <url-pattern>/jsp/file.jsp</url-pattern> -->
+<!-- <url-pattern>/jsp/generate.jsp</url-pattern> -->
+<!-- <url-pattern>/jsp/Generatesuss.jsp</url-pattern> -->
+<!-- <url-pattern>/jsp/upload.jsp</url-pattern> -->
+<!-- <url-pattern>/jsp/upload2.jsp</url-pattern> -->
+<!-- <url-pattern>/jsp/message.jsp</url-pattern> -->
+<!-- </filter-mapping> -->
+</web-app>

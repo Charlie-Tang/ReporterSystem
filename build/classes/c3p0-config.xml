@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- cp30需要放在src目录下，由于ComboPooledDataSource是直接去classpath路径下查找的  切记切记 -->
+<c3p0-config>
+	<default-config>
+		<property name="user">root</property>
+		<property name="password">1111</property>
+		<property name="driverClass">com.mysql.jdbc.Driver</property>
+		<property name="jdbcUrl">jdbc:mysql://localhost:3306/fileChange?useSSL=false</property>
+	
+		<property name="acquireIncrement">5</property>
+    	<property name="initialPoolSize">10</property>
+    	<property name="minPoolSize">10</property>
+    	<property name="maxPoolSize">50</property>
+    	<property name="maxStatements">50</property> 
+    	<property name="maxStatementsPerConnection">10</property>
+	    <property name="timeout">1800</property>
+		<property name="testConnectionOnCheckin">false</property>
+    	<property name="testConnectionOnCheckout">true</property>
+	</default-config> <!-- This app is massive! -->
+	
+		
+</c3p0-config> 
